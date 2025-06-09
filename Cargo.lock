@@ -25,6 +25,7 @@ name = "concurrency"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "oneshot",
  "rand",
 ]
 
@@ -45,6 +46,12 @@ name = "libc"
 version = "0.2.172"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d750af042f7ef4f724306de029d18836c26c1765a54a6a3f094cbd23a7267ffa"
+
+[[package]]
+name = "oneshot"
+version = "0.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b4ce411919553d3f9fa53a0880544cda985a112117a0444d5ff1e870a893d6ea"
 
 [[package]]
 name = "ppv-lite86"

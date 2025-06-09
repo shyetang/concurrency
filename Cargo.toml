@@ -7,4 +7,5 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 anyhow = "1.0.98"
+oneshot = "0.1.11"
 rand = "0.9.1"
